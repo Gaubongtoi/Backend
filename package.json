@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": { "node": "20.x" },
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "start": "nodemon src/index.js",
     "dev": "nodemon src/index.js"
@@ -24,6 +26,8 @@
     "express": "^4.18.2",
     "express-session": "^1.18.0",
     "fuzzball": "^2.1.2",
+    "gaxios": "^5.1.3",
+    "gcp-metadata": "^5.3.0",
     "googleapis": "^134.0.0",
     "jade": "^1.11.0",
     "joi": "^17.13.1",
